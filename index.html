@@ -2,7 +2,7 @@
 <!--Based on https://github.com/mjfoster83/web-map-workshop/blob/master/7_advancedMapping_CartoDB/index-completed.html-->
 <html>
   <head>
-    <title>Leaflet to Carto - Point Collection Tool Beta</title>
+    <title>Alta Planning and Design - Bike Share Station Public Input</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css"
   integrity="sha384-99ZJFcuBCh9c/V/+8YwDX/TUGG8JWMG+gKFJWzk0BZP3IoDMN+pLGd3/H0yjg4oa"
   crossorigin=""/>
@@ -111,7 +111,7 @@
 							+ '<label>Email: </label><input type="email" name="_replyto"> <br>'
 							+ '<label>Why would this make a good station?</label> <textarea name="message" placeholder="Comments..."></textarea> <br>'
 							+ '<input type="hidden" name="station_id" value=' + feature.properties.cartodb_id + '>'
-					    	+ '<input type="hidden" name="_next" value="//alleyhector.github.io/crowdmap-basic" />'
+							+ '<input type="hidden" name="_next" value="https://alleyhector.github.io/Alta-Mapping-Test/thanks.html" />'
 							+ '<input type="submit" value="Send">'
 							+ '</form>'
 						       );

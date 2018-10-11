@@ -38,6 +38,22 @@ h1 {
   height: 100vh;
 }
 
+#thanks {
+  background-color: #B82233;
+}
+
+#content {
+  color: white;
+  padding: 50px;
+}
+#content a {
+  color: white;
+}
+#content p {
+  text-align: center;
+}
+
+
 #controls {
   display: none;
   width: 100%;
