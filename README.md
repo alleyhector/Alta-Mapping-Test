@@ -1,3 +1,6 @@
+# Alta bike share station mapping
+This interactive map uses Crowdmap to pull information on proposed bike share stations in GeoJSON format. Currently we have disabled the functionality of drawing your own points, lines, polygons etc. but it can easily be re-enabled. Setup instructions from the original Crowdmap follow below.
+
 # Crowdmap: Basic
 This is an attempt to create the most basic example of a web map for crowdsourcing... anything that users can draw on a map (points, squares, circles, lines, polygons...).
 It uses [Leaflet.draw](https://github.com/Leaflet/Leaflet.draw) ([demo](https://leaflet.github.io/Leaflet.draw/)), an extension of the [Leaflet](http://leafletjs.com/reference.html) javascript mapping library to enable users to draw shapes on a map and then inserts them in a [Carto table](https://carto.com/data-observatory/). The webmap is hosted on [gh-pages](https://pages.github.com/), which allows you to host free static websites on github, the codesharing website that you're reading this on currently. The only permitted behaviour is for users to view previously submitted input and to submit their own input. Editing or deleting input is not permitted. Examples of possible implementations include:
