@@ -1,44 +1,52 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-
 body {
   margin: 0px;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 img {
-  float: left;
-  padding-right: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p {
-  font-size: 15px;
-  line-height: 25px;
+p, .leaflet-popup-content {
+  text-align: left;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+textarea {
+  width: 80%;
 }
 
 h1 {
-  line-height: 60px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: lighter;
+  text-align: center;
 }
 
 #wrapper {
-  width: 750px;
+  /*width: 750px;*/
 }
 
 #map {
-  width: 750px;
+  width: 100vw;
   margin: 0 auto;
-  height: 375px;
+  height: 100vh;
 }
 
 #controls {
+  display: none;
   width: 100%;
   margin: 0 auto;
   float: left;
 }
 
 #form {
+  display: none;
   margin-top: 5px;
   font-size: 12px;
   text-align: left;
@@ -48,8 +56,16 @@ h1 {
 }
 
 #header {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  width: 20%;
+  height: 100vh;
+  background-color: #B82233;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 20px;
+  color: white;
 }
 
 #credits p {
